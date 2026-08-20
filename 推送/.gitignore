@@ -1,0 +1,5 @@
+# 忽略含密钥的真实配置
+config.json
+# 日志
+*.log
+__pycache__/

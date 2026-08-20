@@ -1,0 +1,14 @@
+{
+  "_说明": "复制本文件为 config.json 后填写真实密钥。config.json 含密钥，切勿外传或提交到 git。",
+
+  "推送渠道二选一": "serverchan 或 pushplus",
+  "push_channel": "serverchan",
+
+  "serverchan_key": "SCT替换为你的SendKey",
+  "pushplus_token": "替换为你的PushPlus_token",
+
+  "LLM配置": "OpenAI 兼容接口。默认 DeepSeek；也可改用智谱等。",
+  "llm_base_url": "https://api.deepseek.com",
+  "llm_model": "deepseek-chat",
+  "llm_api_key": "sk-替换为你的API_key"
+}
