@@ -11,9 +11,11 @@
 4. 选一套基础网课/教材（见 [资源推荐.md](资源推荐.md)），**本周就开工**
 5. 错题记到 [错题本.md](错题本.md)
 
-## 网页版（可选）
+## 网页版
 
-部署到服务器后可在浏览器直接看全部笔记（支持搜索和公式渲染），见 [网站/部署指南.md](网站/部署指南.md)。本地预览：根目录执行 `python -m http.server 8000`，访问 <http://localhost:8000>。
+在线地址：<https://lfange.github.io/gongkao-notes/>（GitHub Pages，改完笔记 `git push` 后约 1 分钟自动更新）。
+
+本地预览：双击根目录 `本地预览.bat`，或执行 `python -m http.server 8000` 后访问 <http://localhost:8000>。自建服务器部署见 [网站/部署指南.md](网站/部署指南.md)。
 
 ## 目录
 
