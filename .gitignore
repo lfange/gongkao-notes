@@ -1,0 +1,6 @@
+# Claude Code 本地配置（含设置与验证截图，不上网）
+.claude/
+
+# 系统杂项
+Thumbs.db
+Desktop.ini

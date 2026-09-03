@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="公考备考笔记">
+  <title>公考备考笔记</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📝</text></svg>">
+  <link rel="stylesheet" href="网站/assets/vue.css">
+  <link rel="stylesheet" href="网站/assets/katex/katex.min.css">
+  <style>
+    /* 中文字体栈：去掉原主题对 Google Fonts 的依赖，使用系统字体 */
+    body, .sidebar, .search, .content {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">加载中……</div>
+
+  <script>
+    window.$docsify = {
+      name: '公考备考笔记',
+      // 侧边栏：所有页面共用根目录的 _sidebar.md
+      loadSidebar: true,
+      alias: { '/.*/_sidebar.md': '/_sidebar.md' },
+      // 长笔记自动在侧边栏生成页内目录（到三级标题）
+      subMaxLevel: 3,
+      // 笔记内使用标准相对链接（如 ../攻略.md），需开启相对路径解析
+      relativePath: true,
+      // 切换页面后回到顶部
+      auto2top: true,
+      // 全文搜索（docsify 5 官方内置插件）
+      search: {
+        paths: 'auto',
+        placeholder: '搜索笔记',
+        noData: '没有找到结果',
+        depth: 6
+      },
+      // LaTeX 公式渲染：页面渲染完成后用 KaTeX 处理 $$...$$ 与 $...$
+      plugins: [
+        function (hook) {
+          hook.doneEach(function () {
+            if (window.renderMathInElement) {
+              renderMathInElement(document.getElementById('main'), {
+                delimiters: [
+                  { left: '$$', right: '$$', display: true },
+                  { left: '$', right: '$', display: false }
+                ],
+                ignoredTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+              });
+            }
+          });
+        }
+      ]
+    };
+  </script>
+  <script src="网站/assets/katex/katex.min.js"></script>
+  <script src="网站/assets/katex/auto-render.min.js"></script>
+  <script src="网站/assets/docsify.min.js"></script>
+  <script src="网站/assets/search.min.js"></script>
+</body>
+</html>
