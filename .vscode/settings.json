@@ -1,0 +1,6 @@
+{
+  // 本项目为笔记仓库，Markdown 保存时不自动格式化（保持手写表格对齐与排版）
+  "[markdown]": {
+    "editor.formatOnSave": false
+  }
+}
