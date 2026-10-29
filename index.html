@@ -10,6 +10,7 @@
       href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📝</text></svg>"
     />
     <link rel="stylesheet" href="网站/assets/vue.css" />
+    <link rel="stylesheet" href="网站/assets/page-toc.css" />
     <link rel="stylesheet" href="网站/assets/katex/katex.min.css" />
     <style>
       /* 中文字体栈：去掉原主题对 Google Fonts 的依赖，使用系统字体 */
@@ -31,8 +32,8 @@
         // 侧边栏：所有页面共用根目录的 _sidebar.md
         loadSidebar: true,
         alias: { '/.*/_sidebar.md': '/_sidebar.md' },
-        // 长笔记自动在侧边栏生成页内目录（到三级标题）
-        subMaxLevel: 3,
+        // 页内目录由 page-toc.js 展示，左侧仅保留网站总导航
+        subMaxLevel: 0,
         // 笔记内使用标准相对链接（如 ../攻略.md），需开启相对路径解析
         relativePath: true,
         // 切换页面后回到顶部
@@ -64,6 +65,7 @@
     </script>
     <script src="网站/assets/katex/katex.min.js"></script>
     <script src="网站/assets/katex/auto-render.min.js"></script>
+    <script src="网站/assets/page-toc.js"></script>
     <script src="网站/assets/docsify.min.js"></script>
     <script src="网站/assets/search.min.js"></script>
   </body>
