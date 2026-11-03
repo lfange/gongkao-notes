@@ -4,3 +4,7 @@
 # 系统杂项
 Thumbs.db
 Desktop.ini
+
+# Python本地缓存
+__pycache__/
+*.pyc
