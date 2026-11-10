@@ -1,5 +1,7 @@
 [资料C01 · 完整文档](文档/资料C01/README.md)
 
+[资料A01 · PDF](文档/资料A01/document.pdf ':ignore')
+
 [文档目录](文档/README.md) · [资料C02](文档/资料C02/README.md) · [资料C03](文档/资料C03/README.md) · [资料C04](文档/资料C04/README.md)
 
 # 备考 · 总索引
