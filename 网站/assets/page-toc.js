@@ -15,6 +15,9 @@
       dispose();
       const article = document.querySelector('#main');
       if (!article) return;
+      const title = article.querySelector('h1');
+      const titleText = title ? title.textContent.trim() : '';
+      const showArticleMenu = titleText === '治理与发展文集' || titleText === '治理与发展论证素材';
       const headings = Array.from(article.querySelectorAll('h2[id], h3[id]'));
       if (!headings.length) return;
 
@@ -22,7 +25,7 @@
       aside.className = 'page-toc';
       const details = document.createElement('details');
       const summary = document.createElement('summary');
-      summary.textContent = '本页目录';
+      summary.textContent = showArticleMenu ? '文章目录' : '本页目录';
       const nav = document.createElement('nav');
       nav.setAttribute('aria-label', '本页目录');
       const list = document.createElement('ul');
@@ -55,13 +58,12 @@
       });
       if (!entries.length) return;
 
-      const title = article.querySelector('h1');
       if (title) title.after(aside);
       else article.prepend(aside);
       document.body.classList.add('has-page-toc');
 
       function setLayout() {
-        details.open = desktop.matches;
+        details.open = desktop.matches || showArticleMenu;
         if (desktop.matches) summary.setAttribute('tabindex', '-1');
         else summary.removeAttribute('tabindex');
       }
