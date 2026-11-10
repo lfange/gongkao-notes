@@ -694,6 +694,8 @@ D. 对李某应当数过并罚
 
 正确答案： ABD
 
+核查提示：题中殴打和毁财分别构成两个独立违法行为时，第十六条规定分别决定、合并执行；对村委会秩序的判断可参考原执法解释，该解释形成于旧法时期，现行适用仍应结合现行规定及具体案情。[现行法律](https://www.spp.gov.cn/spp/fl/202506/t20250627_699863.shtml)；[原执法解释](https://www.gskanglexian.gov.cn/klx/zfxxgk/fdzdgknr/ZAGL/art/2022/art_adaaff37b324413996bb5091b2f50f84.html)。核查日期：2026-11-10。
+
 ### 练习作弊违法行为（新增）
 
 <img src="文档/资料C08/images/figure-021.jpeg" alt="资料配图" loading="lazy">
