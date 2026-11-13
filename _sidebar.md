@@ -3,6 +3,7 @@
   - [文档目录](/文档/README.md)
   - [资料A01 · PDF](/文档/资料A01/document.pdf ':ignore')
   - [资料B01 · 申论作文素材预测](文档/资料B01/document.pdf ':ignore')
+  - [资料B02 · 中华优秀传统文化的创造性转化与创新性发展](/文档/资料B02/README.md)
   - [资料C02 · 单元13—14](/文档/资料C02/README.md)
   - [资料C03 · 单元19—20](/文档/资料C03/README.md)
   - [资料C04 · 单元21—22](/文档/资料C04/README.md)
