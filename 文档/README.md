@@ -29,5 +29,19 @@
 | C20 | 第57—58节 · 宪法（上） | [打开资料C20](文档/资料C20/README.md) |
 | C21 | 第59—60节 · 宪法（中） | [打开资料C21](文档/资料C21/README.md) |
 | C22 | 第61—62节 · 宪法（下）与立法 | [打开资料C22](文档/资料C22/README.md) |
+| C23 | 【总结06】行政处罚法和娱乐场所管理条例 · PDF | [打开资料C23](文档/资料C23/document.pdf ':ignore') |
+| C24 | 【总结07】治安管理处罚法 · PDF | [打开资料C24](文档/资料C24/document.pdf ':ignore') |
+| C25 | 【总结08】内务条令 · PDF | [打开资料C25](文档/资料C25/document.pdf ':ignore') |
+| C26 | 【总结09】法理学 · PDF | [打开资料C26](文档/资料C26/document.pdf ':ignore') |
+| C27 | 【总结10】办理刑事案件能力 · PDF | [打开资料C27](文档/资料C27/document.pdf ':ignore') |
+| C28 | 公安专业知识上册 · PDF | [打开资料C28](文档/资料C28/document.pdf ':ignore') |
+| C29 | 公安专业知识下册 · PDF | [打开资料C29](文档/资料C29/document.pdf ':ignore') |
+| C30 | 办理行政案件程序规定 · PDF | [打开资料C30](文档/资料C30/document.pdf ':ignore') |
+| C31 | 办理刑事案件程序规定 · PDF | [打开资料C31](文档/资料C31/document.pdf ':ignore') |
+| C32 | 习题册 · PDF | [打开资料C32](文档/资料C32/document.pdf ':ignore') |
+| C33 | 习题册答案 · PDF | [打开资料C33](文档/资料C33/document.pdf ':ignore') |
+| C34 | 真题册 · PDF | [打开资料C34](文档/资料C34/document.pdf ':ignore') |
+| C35 | 2027母志文公安联考第一次模考 · PDF | [打开资料C35](文档/资料C35/document.pdf ':ignore') |
+| C36 | 27母之文模考一（纯文字版） · PDF | [打开资料C36](文档/资料C36/document.pdf ':ignore') |
 
 C02—C08、C15—C22 根据用户提供的 AI 总结原文整理，法律条文时效尚未逐条核验。
